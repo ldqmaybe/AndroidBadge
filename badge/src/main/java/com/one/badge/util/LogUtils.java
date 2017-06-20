@@ -15,6 +15,10 @@ public class LogUtils {
     private static boolean IS_DEBUG = true;
     private static final int JSON_INDENT = 2;
 
+    public static String getVersion() {
+        return "v1.0.1";
+    }
+
     /**
      * 打印没有指定tag的Log（默认为json），级别为i
      *
