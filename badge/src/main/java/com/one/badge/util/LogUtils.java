@@ -14,7 +14,7 @@ import org.json.JSONObject;
 public class LogUtils {
     private static boolean IS_DEBUG = true;
     private static final int JSON_INDENT = 2;
-
+//建立分支
     public static String getVersion() {
         return "v1.0.1";
     }
